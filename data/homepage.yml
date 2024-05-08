@@ -1,0 +1,185 @@
+head:
+  title: "Hannes Lehmann | SaaS, AI and Integration Expert and Consultation"
+  description: "Personal site for Hannes Lehmann, Senior Solution Architect and CEO at sistemica GmbH. With a background as computer engineer and experience in integration solutions (Tibco, MuleSoft, ...) as and team lead, in multi-cultural environments in Germany. You can find contact information, as well as availability for work, up-to-date curriculum and previous experience."
+# showcase
+showcase:
+  enable: true
+  title: "Hello,"
+  description: "based in Bad Homburg 🇩🇰, I work as CEO and principal consultant at <a target='_blank' href='https://www.sistemica.de/'>sistemica</a>, my company helping small businesses and large enterprises, whose vision is <em>to uncover hidden potentials by systems thinking</em>. <br/>As a <strong>highly creative mind and fast thinker</strong>, I love to think outside the box and to approach problems from different angles. My wide range of experiences (a backpack full of best-practices + blue-prints) and my network, let's me quickly build PoCs and teams: from hacky code to full blown end-to-end solutions with automated testing and deployment including monitoring and logging. I am passionate about building highly efficient teams and the initial setup of developer tools and processes."
+  image:
+    alt: "Profile picture of Hannes Lehmann (@_hanneslehmann_), smiling over a petroleum color background"
+    x: "images/adrian.jpg"
+    _2x: "images/adrian@2x.jpg"
+  imageMobile:
+    alt: "Profile picture of Hannes Lehmann (@_hanneslehmann_), smiling over a petroleum color background"
+    x: "images/adrian.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/hanneslehmann/"
+
+    - icon: "github"
+      URL: "https://github.com/hanneslehmann"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/_hanneslehmann_"
+
+    - icon: "stackoverflow"
+      URL: "https://stackoverflow.com/users/6262157/hanneslehmann"
+
+    - icon: "medium"
+      URL: "https://medium.com/@hannes.lehmann"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">
+    I am an engineer by formation, creative, curious and energetic - that applies technology to solve real-world problems. Personally, I’m a very easy going, sociable, fast-learner, curious and natural leader. I do what I love, and I love what I do: find (simple) solutions for complex problems.
+    </p>
+    <p class="lead">
+    I am a deliberate jack-of-all-trades, master of none. My profile is a hybrid of technical and managerial experience, always related to technological projects. I bring business and product vision to tech teams, thanks to my experience in working as a consultant, building multiple consultant teams from the ground up, and finally starting and developing a company nearly a decade ago. I am a fast learner, curious to see how technology can improve user experiences in multiple areas. I have a strong motivation and sense of responsibility towards myself, my team, and clients (or peers). People appreciate my positive and easy-going, can-do attitude.
+    </p>
+    <p class="lead">    
+    On the technical side, I operate as a specialized generalist, maneuvering between different areas to cultivate a holistic understanding of what it takes to develop a successful tech product. I initially served as an Integration Architect and Developer, focusing on TIBCO, and later transitioned to MuleSoft. Throughout my journey, I have bridged the gap between business processes and developer teams, adept at grasping requirements, translating them into technical specifications, building and leading (off/nearshore) developer teams, overseeing testing, and managing deployments. I have a penchant for automating processes and creating digital twins that accurately reflect real-world operations while upholding data privacy and system stability. Additionally, I have contributed to building several Proof of Concepts across various domains, including web technologies, no-code platforms, databases, and AI/ML. With a keen ability to adapt quickly, I eagerly explore new technologies and tools to address challenges.</p>'
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/hanneslehmann/"
+  image:
+    x: "images/working-left.jpg"
+    _2x: "images/working-left@2x.jpg"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Applied Sciences of Darmstadt"
+      year: "2002-2005"
+      degree: "Bachelor of Engineering in Computer Science"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "With 20 years of experience working in all kind of project sizes and teams. I have architected & developed digital products and integration solutions to help businesses, solving complex problems with simple solutions."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/hanneslehmann/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download résumé"
+    URL: "/files/cv_adrian_moreno_english.pdf"
+  button3: 
+    icon: "icon-arrow-right"
+    btnText: "All experience"
+    URL: "/experience"
+# Client & Work
+client_and_work:
+  title: "Companies and Products"
+  enable: true
+
+  clients:
+    - logo:
+        x: "images/clients/sistemica.png"
+        _2x: "images/clients/sistemica@2x.png"
+      alt: "sistemica GmbH"
+      url: https://sistemica.de
+
+    - logo:
+        x: "images/clients/devtech.png"
+        _2x: "images/clients/devtech@2x.png"
+      alt: "devtech.pro"
+      url: https://devtech.pro
+
+    - logo:
+        x: "images/clients/innovest_research_partners.png"
+        _2x: "images/clients/innovest_research_partners@2x.png"
+      alt: "Innovest Resarch Partners"
+      url: https://innovestresearch.partners
+
+
+  works:
+    - title: "mightclick.ai"
+      description: "A chrome browser extension which gives you the power of AI within a mouse click. Leverage the latest AI models to enhance your productivity, creativity, and decision-making. Seamlessly integrate AI capabilities into your daily workflow."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Go To"
+        URL: "https://mightclick.ai"
+      image:
+        x: "images/works/radity-finance.jpg"
+        _2x: "images/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "GeniePy"
+      description: "A SaaS starter template written in Python, batteries included. Spin up new products with minimal friction and effort within a day. Perfect for PoCs, MVPs, testing market fit but also running the final product!"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Go To"
+        URL: "https://geniepy.com"
+      image:
+        x: "images/works/robo-advisor.jpg"
+        _2x: "images/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "images/testimonials/daniel-jordan.jpg"
+        _2x: "images/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "images/testimonials/jonathan-peters.jpg"
+        _2x: "images/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "images/testimonials/antonio-willis.jpg"
+        _2x: "images/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    action: "https://formspree.io/info@adrianmoreno.info"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  email:
+    title: "Email"
+    email: '<a href="mailto:info@hannes-lehmann.com">info@hannes-lehmann.com</a>'
+  address:
+    title: "Location"
+    address: "Bad Homburg, v.d.H. (DE)"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
