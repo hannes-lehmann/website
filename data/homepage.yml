@@ -5,7 +5,7 @@ head:
 showcase:
   enable: true
   title: "Hello,"
-  description: "based in Bad Homburg 🇩🇰, I work as CEO and principal consultant at <a target='_blank' href='https://www.sistemica.de/'>sistemica</a>, my company helping small businesses and large enterprises, whose vision is <em>to uncover hidden potentials by systems thinking</em>. <br/>As a <strong>highly creative mind and fast thinker</strong>, I love to think outside the box and to approach problems from different angles. My wide range of experiences (a backpack full of best-practices + blue-prints) and my network, let's me quickly build PoCs and teams: from hacky code to full blown end-to-end solutions with automated testing and deployment including monitoring and logging. I am passionate about building highly efficient teams and the initial setup of developer tools and processes."
+  description: "based in Bad Homburg 🇩🇪, I work as CEO and principal consultant at <a target='_blank' href='https://www.sistemica.de/'>sistemica</a> and as CTO/Head of Innovations for <a target='_blank' href='https://www.devtech.pro/'>devtech.pro</a>, my companies helping small businesses and large enterprises, whose vision is <em>to uncover hidden potentials by systems thinking</em>. <br/>As a <strong>highly creative mind and fast thinker</strong>, I love to think outside the box and to approach problems from different angles. I excel at finding unconventional solutions and with extensive experience and a strong network, I quickly create Proofs of Concept (PoCs), MVPs and build effective teams, delivering end-to-end solutions with automated testing, deployment, monitoring, and logging. I am passionate about forming efficient teams and optimizing developer tools and processes."
   image:
     alt: "Profile picture of Hannes Lehmann (@_hanneslehmann_), smiling over a petroleum color background"
     x: "images/adrian.jpg"
@@ -78,6 +78,7 @@ experience:
     icon: "icon-profile-fill"
     btnText: "Download résumé"
     URL: "/files/cv_adrian_moreno_english.pdf"
+    Onclick: ml('show', 'b4hcLd', true)
   button3: 
     icon: "icon-arrow-right"
     btnText: "All experience"
@@ -115,8 +116,8 @@ client_and_work:
         btnText: "Go To"
         URL: "https://mightclick.ai"
       image:
-        x: "images/works/radity-finance.jpg"
-        _2x: "images/works/radity-finance@2x.jpg"
+        x: "images/works/mightclick.jpg"
+        _2x: "images/works/mightclick@2x.jpg"
       is_even: true
 
     - title: "GeniePy"
@@ -126,8 +127,8 @@ client_and_work:
         btnText: "Go To"
         URL: "https://geniepy.com"
       image:
-        x: "images/works/robo-advisor.jpg"
-        _2x: "images/works/robo-advisor@2x.jpg"
+        x: "images/works/geniepy.jpg"
+        _2x: "images/works/geniepy@2x.jpg"
       is_even: true
 
 # testimonial
@@ -161,14 +162,14 @@ contact:
   enable: true
   title: "Contact"
   form:
-    action: "https://formspree.io/info@adrianmoreno.info"
+    action: "https://formspree.io/f/xdoqjkvj"
     method: "POST"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"
   email:
     title: "Email"
-    email: '<a href="mailto:info@hannes-lehmann.com">info@hannes-lehmann.com</a>'
+    email: '<a href="mailto:mail@hannes-lehmann.com">mail@hannes-lehmann.com</a>'
   address:
     title: "Location"
     address: "Bad Homburg, v.d.H. (DE)"
