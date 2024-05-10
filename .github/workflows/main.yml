@@ -11,8 +11,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
@@ -33,29 +36,13 @@ jobs:
       - name: Build
         run: hugo --minify --buildDrafts=true
       
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v1
+      - name: Publish
+        uses: cloudflare/pages-action@1
         with:
-          python-version: 3.8
-      
-      - name: Upload to S3
-        uses: actions/upload-artifact@v2
-        with:
-          name: build
-          path: public
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: website # e.g. 'my-project'
+          directory: public # e.g. 'dist'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
         
-      - uses: jakejarvis/s3-sync-action@master
-        with:
-          args: --acl public-read --follow-symlinks --delete
-        env:
-          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'eu-central-1'   # optional: defaults to us-east-1
-          SOURCE_DIR: 'public'      # optional: defaults to entire repository
-        
-      - name: Deploy to GH Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+
