@@ -1,7 +1,7 @@
 {
-  "name": "adrianmoreno.info",
+  "name": "hannes-lehmann.com",
   "version": "1.0.0",
-  "description": "JS automations for adrianmoreno.info",
+  "description": "JS automations for hannes-lehmann.com",
   "homepage": "https://bitbucket.org/zetxek/adrianmoreno.info",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "browser-sync": "^3.0.2",
     "critical": "^7.1.1",
     "del": "^7.1.0",
-    "gulp": "^5.0.0",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^9.0.0",
@@ -30,7 +30,7 @@
     "npm": ">= 3.0.0"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-size": "^5.0.0",
     "gulp-strip-debug": "^6.0.0",
