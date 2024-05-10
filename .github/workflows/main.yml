@@ -19,13 +19,13 @@ jobs:
         with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-      - uses: actions/setup-node@v3
+
+      - uses: oven-sh/setup-bun@v1
         with:
-          node-version: 18
-          cache: 'npm'
+          bun-version: 1.0.11 
 
       - name: Install postcss
-        run: npm install postcss-cli
+        run: bun install postcss-cli
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
