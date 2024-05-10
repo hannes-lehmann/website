@@ -4,7 +4,7 @@
     <p class="lead">{{ .Site.Data.homepage.experience.description }}</p>
   </div>
   <div class="row">
-    <div class="col-12 col-lg-4">
+    <div class="pl-0 col-12 col-lg-4">
       <a
         href="{{ .Site.Data.homepage.experience.button.URL | absURL }}"
         class="btn btn-primary btn-block"
@@ -16,7 +16,7 @@
         <i class="icon-arrow-right"></i
       ></a>
     </div>
-    <div class="col-12 col-lg-4">
+  <!--  <div class="col-12 col-lg-4">
       <a
         href="javascript:void(0)"
         onclick="{{ safeJS .Site.Data.homepage.experience.button2.Onclick  }}"
@@ -39,6 +39,6 @@
         {{ .Site.Data.homepage.experience.button3.btnText }}
       </a>
     </div>
-    {{ end }}
+    {{ end }}  -->
   </div>
 </div>

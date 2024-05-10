@@ -8,11 +8,11 @@ showcase:
   description: "based in Bad Homburg 🇩🇪, I work as CEO and principal consultant at <a target='_blank' href='https://www.sistemica.de/'>sistemica</a> and as CTO/Head of Innovations for <a target='_blank' href='https://www.devtech.pro/'>devtech.pro</a>, my companies helping small businesses and large enterprises, whose vision is <em>to uncover hidden potentials by systems thinking</em>. <br/>As a <strong>highly creative mind and fast thinker</strong>, I love to think outside the box and to approach problems from different angles. I excel at finding unconventional solutions and with extensive experience and a strong network, I quickly create Proofs of Concept (PoCs), MVPs and build effective teams, delivering end-to-end solutions with automated testing, deployment, monitoring, and logging. I am passionate about forming efficient teams and optimizing developer tools and processes."
   image:
     alt: "Profile picture of Hannes Lehmann (@_hanneslehmann_), smiling over a petroleum color background"
-    x: "images/adrian.jpg"
-    _2x: "images/adrian@2x.jpg"
+    x: "images/hannes.png"
+    _2x: "images/hannes@2x.png"
   imageMobile:
     alt: "Profile picture of Hannes Lehmann (@_hanneslehmann_), smiling over a petroleum color background"
-    x: "images/adrian.jpg"
+    x: "images/hannes.png"
 
   button:
     icon: "icon-mail-fill"

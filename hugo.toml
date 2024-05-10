@@ -52,20 +52,25 @@ theme = "hale-custom-hugo-theme"
 
 
   [[menu.footer]]
-  name = "💁‍♂️ About"
+  name = "About"
   URL = "index.html#about"
   weight = 2
 
 
-  [[menu.footer]]
-  name = "📚 Books"
-  URL = "/books"
-  weight = 3
+  #[[menu.footer]]
+  #name = "📚 Books"
+  #URL = "/books"
+  #weight = 3
 
   [[menu.footer]]
-  name = "📨 Contact"
+  name = "Contact"
   URL = "index.html#contact"
   weight = 5
+
+  [[menu.footer]]
+  name = "Impress"
+  URL = "/impress"
+  weight = 7
 
 
 [params]
@@ -79,7 +84,7 @@ theme = "hale-custom-hugo-theme"
     text2 = "Lehmann"
 
    [params.footer]
-      copyright = "© hannes-lehmann.com // Free Hugo theme by Adrián Moreno Peña."
+      copyright = "© hannes-lehmann.com // based on Hugo theme by Adrián Moreno Peña."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"

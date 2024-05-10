@@ -1,4 +1,4 @@
-name: Build Hugo
+name: publish prod site
 
 on:
   push:
