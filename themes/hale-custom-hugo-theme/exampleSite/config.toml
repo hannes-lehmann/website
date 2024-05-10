@@ -1,19 +1,7 @@
-baseURL = "https://www.hannes-lehmann.com/"
-languageCode = "en"
-DefaultContentLanguage = "en"
-title = "Hannes Lehmann · Solution Architect, Developer and Consultant, all-around tech enthusiast"
-theme = "hale-custom-hugo-theme"
+baseURL = "https://www.adrianmoreno.info"
+languageCode = "en-us"
+theme = "adritian-free-hugo-theme"
 
-
-# Languages
-#   en
-#     weight: 1
-#   es
-#     weight: 2
-
-[build]
-  writeStats = true
-  
 # Plugins
 [params.plugins]
 
@@ -30,19 +18,21 @@ theme = "hale-custom-hugo-theme"
   URL = "js/rad-animations.js"
   [[params.plugins.js]]
   URL = "js/sticky-header.js"
- 
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
 
 # navigation
 [menu]
 
   [[menu.header]]
   name = "About"
-  URL = "index.html#about"
+  URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Experience"
-  URL = "index.html#experience"
+  name = "Portfolio"
+  URL = "#portfolio"
   weight = 3
 
   [[menu.header]]
@@ -52,39 +42,35 @@ theme = "hale-custom-hugo-theme"
 
 
   [[menu.footer]]
-  name = "💁‍♂️ About"
-  URL = "index.html#about"
+  name = "About"
+  URL = "#about"
   weight = 2
 
-
   [[menu.footer]]
-  name = "📚 Books"
-  URL = "/books"
+  name = "Portfolio"
+  URL = "#portfolio"
   weight = 3
 
   [[menu.footer]]
-  name = "📨 Contact"
-  URL = "index.html#contact"
-  weight = 5
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
 
 
 [params]
 
   sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
   homepageExperienceCount = 6
-
+  
   [params.logo]
-    text1 = "Hannes"
-    text2 = "Lehmann"
+    text1 = "Cool"
+    text2 = "Name"
 
-   [params.footer]
-      copyright = "© hannes-lehmann.com // Free Hugo theme by Adrián Moreno Peña."
+  [params.footer]
+      copyright = "© Adritian. Free Hugo theme by Adrián Moreno Peña."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
         alt = "Design & Code - Radity"
-
-[taxonomies]
-  book_author = "book_authors"
-  book_category = "book_categories"
