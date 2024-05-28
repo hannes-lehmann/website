@@ -69,7 +69,7 @@ education:
 experience:
   enable: true
   title: "Experience"
-  description: "With 20 years of experience working in all kind of project sizes and teams. I have architected & developed digital products and integration solutions to help businesses, solving complex problems with simple solutions."
+  description: "With over 24 years of experience working in all kind of project sizes and teams. I have architected & developed digital products and integration solutions to help businesses, solving complex problems with simple solutions."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -81,7 +81,7 @@ experience:
     Onclick: ml('show', 'b4hcLd', true)
   button3: 
     icon: "icon-arrow-right"
-    btnText: "All experience"
+    btnText: "Show more"
     URL: "/experience"
 # Client & Work
 client_and_work:

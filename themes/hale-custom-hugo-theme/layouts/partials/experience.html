@@ -8,10 +8,7 @@
                 {{/* in the homepage we limit to the homepageExperienceCount param (6 by default) in the inner page (experience) we display the all */}}
                 {{ $totalCount := .Site.Params.homepageExperienceCount }}
                 
-                {{ if not .IsHome }}
-                {{ $totalCount = len $xp }}
-                {{ end }}
-                {{ range first 6 $xp }}
+                {{ range first .Site.Params.homepageExperienceCount $xp }}
                 <div class="experience">
                     <a href="{{.Permalink}}">
                         {{/* The context, ".", is now each one of the pages as it goes
@@ -26,7 +23,7 @@
                 {{ if gt $xpCount $totalCount }}
                 <div class="all-experience-container">
                     {{ $xpExtra := sub $xpCount $totalCount }}
-                    <em>And {{ $xpExtra }} more</em><br />
+                    <!-- <em>And {{ $xpExtra }} more</em><br /> -->
                     <a href="{{ absURL "experience" }} " title=" See additional {{ $xpExtra }} experience items"
                         class="btn btn-primary btn-all-experience">
                         <i class="{{ .Site.Data.homepage.experience.button3.icon }}"></i>

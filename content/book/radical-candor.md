@@ -4,6 +4,7 @@ book_authors: ["Kim Scott"]
 book_categories: ["Leadership"]
 link: "https://www.goodreads.com/search?q=Radical+Candor+Kim+Scott"
 featured: true
+sitemap_exclude: true
 
 ---
 

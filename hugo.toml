@@ -77,14 +77,14 @@ theme = "hale-custom-hugo-theme"
 
   sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
-  homepageExperienceCount = 6
+  homepageExperienceCount = 4
 
   [params.logo]
     text1 = "Hannes"
     text2 = "Lehmann"
 
    [params.footer]
-      copyright = "© hannes-lehmann.com // based on Hugo theme by Adrián Moreno Peña."
+      copyright = "© hannes lehmann // based on Hugo theme by Adrián Moreno Peña."
       [params.footer.radity_logo]
         x = "img/general/design-and-code-radity.png"
         _2x = "img/general/design-and-code-radity@2x.png"
@@ -93,3 +93,5 @@ theme = "hale-custom-hugo-theme"
 [taxonomies]
   book_author = "book_authors"
   book_category = "book_categories"
+  post_author = "post_authors"
+  post_category = "post_categories"

@@ -1,8 +1,9 @@
 ---
 date: 2024-05-01T00:00:00+01:00
+lastmod: 2024-05-28
 draft: false
-title: "CEO / Principal Consultant Integration & AI"
-jobTitle: "CEO / Principal Consultant Integration & AI"
+title: "CEO, Founder, Principal Consultant Integration & AI"
+jobTitle: "CEO, Founder, Principal Consultant Integration & AI"
 company: "sistemica GmbH"
 location: "Frankfurt, Germany"
 duration: "2017-present"

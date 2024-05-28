@@ -1,0 +1,11 @@
+    <li class="book-content col-sm-12 {{ if .Params.featured }}featured{{ end }}">
+        <h5 class="post-title">{{ .Title }}</h5>
+        {{ if isset .Params "post_authors" }} 
+            <h6 class="post-author">, by 
+            {{ range .Params.post_authors }} 
+                {{ . }} 
+            {{ end}}
+            </h6>
+            {{ end }}
+        {{ if gt (len .Summary) 0 }} <p>{{ .Summary }}</p> {{ end }} 
+    </li>

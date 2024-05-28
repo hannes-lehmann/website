@@ -1,8 +1,9 @@
 ---
 date: 2015-11-01T00:00:00+01:00
+lastmod: 2024-05-28
 draft: false
-title: "Senior Director TIBCO Consulting"
-jobTitle: "Senior Director TIBCO Consulting"
+title: "Senior Director, TIBCO Consulting"
+jobTitle: "Senior Director, TIBCO Consulting"
 company: "nterra integration GmbH"
 location: "Darmstadt, Germany"
 duration: "2014 - 2017"

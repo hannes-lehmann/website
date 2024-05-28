@@ -3,6 +3,7 @@ title: "Clarity First: How Smart Leaders and Organizations Achieve Outstanding P
 book_authors: ["Karen Martin"]
 book_categories: ["Leadership"]
 link: "https://www.goodreads.com/search?q=Clarity+First:+How+Smart+Leaders+and+Organizations+Achieve+Outstanding+Performance+Karen+Martin"
+sitemap_exclude: true
 ---
 
 A guide for leaders on how to achieve outstanding performance through clarity and focus.

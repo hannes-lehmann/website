@@ -1,8 +1,9 @@
 ---
-date: 2023-11-01T00:00:00+01:00
+date: 2024-01-01T00:00:00+01:00
+lastmod: 2024-05-28
 draft: false
-title: "CTO / Head of Innovation & AI"
-jobTitle: "CTO / Head of Innovation & AI"
+title: "CTO, Head of Innovation & AI"
+jobTitle: "CTO, Head of Innovation & AI"
 company: "devtech.pro"
 location: "Talinn, Estland"
 duration: "2022 - present"

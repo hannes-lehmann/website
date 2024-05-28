@@ -1,5 +1,6 @@
 ---
 date: 2000-11-01T00:00:00+01:00
+lastmod: 2024-05-28
 draft: false
 title: "Developer"
 jobTitle: "Developer"
